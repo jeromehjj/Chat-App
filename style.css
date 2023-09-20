@@ -70,14 +70,23 @@ h2 {
 }
 li {
     text-transform: initial;
+    font-weight: initial;
     color:black;
     box-sizing: border-box;
     padding: 22px;
     height: 66px;
 }
 
+.channel-name {
+    font-weight:bolder;
+}
+
 #top-left-header {
     background-color: lightgrey;
+}
+
+#family {
+    display: inline;
 }
 
 .selected {
